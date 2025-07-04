@@ -49,6 +49,6 @@ def predict_datapoint():
         print("❌ Error during prediction:", str(e))
         return render_template('home.html', results="⚠️ Prediction failed. Check logs.")
 
-# Run the app
+#APP RUNNING
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
